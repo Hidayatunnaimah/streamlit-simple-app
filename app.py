@@ -63,7 +63,7 @@ def main():
     kadar_debu = hitung_kadar_debu(bobot_awal, bobot_akhir, volume_udara_standar)
     st.write(f"**Kadar debu adalah *{kadar_debu:} mg/Nm³***")
     if (kadar_debu / 1000) > 150:
-        st.subheader("Partikulat Tidak Memenuhi Baku Mutu")
+        st.subheader("Partikulat A Tidak Memenuhi Baku Mutuuuuu")
     elif kadar_debu == 0.00:
         st.subheader("")
     else:
